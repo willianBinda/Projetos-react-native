@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+.container{
+    background-color: aquamarine;
+    max-width: auto;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    height: auto;
+}
+.container h1{
+    font-size: 30px;
+    text-align: center;
+
+}

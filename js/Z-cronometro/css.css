@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: chartreuse;
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.relogio{
+    font-size: 50px;
+    margin: 0;
+    margin-left: 10px;
+}
+.container h1{
+    margin: 5px;
+    font-size: 40px;
+}
+button{
+    margin-left: 5px;
+}
+
+.cor{
+    color: blue;
+}

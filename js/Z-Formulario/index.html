@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Cadastro</h1>
+        <ul>
+            <li>Nenhum campo deve estar vazio</li>
+            <li>Usuario deve conter somente letras e/ou numeros</li>
+            <li>Usuario devera conter entre 3 e 12 caracteres</li>
+            <li>Senha precisa ter entre 6 e 12 caracteres</li>
+        </ul>
+        <form action="/" method="POST" class="formulario">
+            <label for="">Nome</label>
+            <input type="text" name="" class="nome validar">
+            <label for="">Sobrenome</label>
+            <input type="text" name="" id="" class="sobrenome validar">
+            <label for="">CPF</label>
+            <input type="text" name="" id="" class="cpf validar">
+            <label for="">Usuario</label>
+            <input type="text" name="" id="" class="usuario validar">
+            <label for="">Senha</label>
+            <input type="password" name="" id="" class="senha validar">
+            <label for="">Repetir Senha</label>
+            <input type="password" name="" id="" class="repetir-senha validar">
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <script src="./cpf.js"></script>
+    <script src="./form.js"></script>
+</body>
+</html>
